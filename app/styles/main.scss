@@ -5,6 +5,8 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 @import "font-awesome/scss/font-awesome.scss";
 // endbower
 
+@import "partials/signup";
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
