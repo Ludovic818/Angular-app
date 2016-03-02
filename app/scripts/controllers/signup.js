@@ -58,13 +58,13 @@ angular.module('angularAppApp')
 			// Make the request to the server
 			var request = $http.post('/signup', user);
 
-			request.success(function (data) {
-				console.log(data.msg);
-			});
+				request.success(function (data) {
+				    console.log(data); // <-- changed
+				});
 
-			request.error(function (data) {
-				console.log(data.msg);
-			});
+				request.error(function (data) {
+				    console.log(data); // <-- changed
+				})
 
 		};
 
